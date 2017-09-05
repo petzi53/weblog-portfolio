@@ -5,12 +5,12 @@ header:
   caption: 'Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)'
   image: headers/getting-started.png
 math: true
-summary: "Create a beautifully simple personal or academic website in under 10 minutes.
-  \n"
+summary: "Entwickle einen einfachen persönlichen oder akademischen Website in weniger
+  als 10 Mniuten. \n"
 tags:
 - academic
 - hugo
-title: Getting started with the Academic framework for Hugo
+title: Erste Schritte mit dem Thema 'academic' für Hugo
 ---
 
 The Academic framework enables you to easily create a beautifully simple personal or academic website using the [Hugo](https://gohugo.io) static site generator.

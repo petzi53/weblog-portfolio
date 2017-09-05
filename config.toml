@@ -1,9 +1,16 @@
-baseurl = "https://example.com/"  # End your URL with a `/` trailing slash.
-title = "Academic"
-copyright = "&copy; 2016 Your Name"
+baseurl = "/"  # End your URL with a `/` trailing slash.
+title = "Thought Splinters"
+# copyright = "&copy; 2017 by Peter Baumgartner"
+copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="display-centered" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://gedankensplitter.netlify.com" property="cc:attributionName" rel="cc:attributionURL">Peter Baumgartner</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://peter.baumgartner.name/kontakt" rel="cc:morePermissions">http://peter.baumgartner.name/kontakt</a>.'
 theme = "hugo-academic"
 enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
+footnotereturnlinkcontents = "↩"
+
+# pb: copied from example Yihui Xie website
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -15,29 +22,32 @@ googleAnalytics = ""
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+# pb: Not sure, but I think it should not use blackfriday markdown/template?
 [blackfriday]
-  hrefTargetBlank = true
+   hrefTargetBlank = true
+
 
 [params]
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
-  organization = "Stanford University"
-  organization_url = ""
-  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  name = "Peter Baumgartner"
+  role = "Professor for Educational Technology"
+  organization = "Danube University Krems"
+  organization_url = "http://www.donau-uni.ac.at/"
+  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "" # "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "peter.baumgartner@donau-uni.ac.at"
+  address = "Wing M, 2nd floor, Room 2.33, Danube University Krems, Dr.-Karl-Dorrek-Straße 30, 3500 Krems, Austria"
+  office_hours = "email for appointment"
+  phone = "+43 664/357 6661"
+  skype = "baumgartner53"
   telegram = ""
+
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
 
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "Jan 2, 2006"
+  date_format = "Mon, Jan 2, 2006"
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
@@ -77,17 +87,20 @@ defaultContentLanguageInSubdir = false
   #   For more info on the highlighting options, see:
   #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
-  # highlight_style = "github"
-  # highlight_version = "9.9.0"
+  highlight_languages = ["r", "yaml"]
+  highlight_style = "github"
+  highlight_version = "9.12.0" # or: 9.11.0 as in example?
+
 
   # Enable native social sharing buttons?
   sharing = true
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = ["hugo-academic-changes-mini.css"]
   custom_js  = []
+
+
 
   # Publication types.
   #   Used to categorize publications.
@@ -104,6 +117,7 @@ defaultContentLanguageInSubdir = false
     'Book',  # 5
     'Book chapter'  # 6
   ]
+
 
   # Social/Academic Networking
   #
@@ -126,23 +140,22 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:peter.baumgartner@donau-uni.ac.at"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "//twitter.com/pbaumgartner"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.at/citations?user=mKCNn9kAAAAJ&hl=en"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
-
+    link = "//github.com/petzi53"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -179,15 +192,53 @@ defaultContentLanguageInSubdir = false
   url = "#contact"
   weight = 6
 
+
 # Taxonomies.
 [taxonomies]
   tag = "tags"
   category = "categories"
   publication_type = "publication_types"
 
-# Languages
-#   Create a [languages.X] block for each language you want, where X is the language ID.
-
 # Configure the English version of the website.
 [languages.en]
   languageCode = "en-us"
+
+[languages.de]
+  languageCode = "de-de"
+
+[[Languages.de.menu.main]]
+  name = "Start"
+  url = "#about_de"
+  weight = 1
+
+[[languages.de.menu.main]]
+  name = "Kontakt"
+  url = "#contact"
+  weight = 6
+
+
+
+############
+# Languages
+# Create a [languages.X] block for each language you want, where X is the language ID.
+
+[Languages]
+[Languages.en]
+  title = "Thought Splinters"
+  role = "Professor for Educational Technology"
+  organization = "Danube University Krems"
+  address = "Wing M, 2nd floor, Room 2.33, Danube University Krems, Dr.-Karl-Dorrek-Straße 30, 3500 Krems, Austria"
+  office_hours = "email for appointment"
+
+[Languages.de]
+  title = "Gedankensplitter"
+  role = "Professor für Bildungstechnologie"
+  organization = "Donau-Universität Krems"
+  address = "Büro: Trakt M, 2. Stock, Raum 2.33, Donau-Universität Krems, Dr.-Karl-Dorrek-Straße 30, 3500 Krems, Österreich"
+  office_hours = "Terminvereinbarung über E-Mail"
+
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+

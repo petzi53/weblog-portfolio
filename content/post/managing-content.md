@@ -1,10 +1,12 @@
-+++
-date = 2016-04-18
-draft = false
-tags = ["academic", "hugo"]
-title = "Managing content"
-math = false
-+++
+---
+date: 2016-04-20T11:00:00
+draft: false
+math: false
+tags:
+- academic
+- hugo
+title: Managing content
+---
 
 This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about [writing content with Markdown, LaTeX, and Shortcodes]({{< ref "post/writing-markdown-latex.md" >}}).<!--more-->
 
@@ -24,8 +26,6 @@ caption = "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic
 {{% alert note %}}
 If you wish to prevent a featured image automatically being used for a post's thumbnail on the homepage, the `preview = false` parameter can be added to `[header]`.
 {{% /alert %}}
-
-{{% toc%}}
 
 ## Create a publication
 
@@ -72,7 +72,7 @@ If you enabled `detailed_list` for publications in `config.toml`, then there are
 Any double quotes (`"`) or backslashes (e.g. LaTeX `\times`) occurring within the value of any frontmatter parameter (such as the *abstract*) should be escaped with a backslash (`\`). For example, the symbol `"` and LaTeX text `\times` become `\"` and `\\times`, respectively. Refer to the [TOML documentation](https://github.com/toml-lang/toml#user-content-string) for more info.
 {{% /alert %}}
 
-## Create a blog post
+## Post an article
 
 To create a blog/news article:
 
@@ -101,12 +101,6 @@ To create a talk:
     hugo new talk/my-talk-name.md
 
 Then edit the newly created file `content/talk/my-talk-name.md` with your full talk title and details. Note that many of the talk parameters are similar to the publication parameters.
-
-## Create other pages (e.g. CV)
-
-For other types of content, it is possible to create your own custom pages. For example, let's create a `cv.md` page for your Curriculum Vitae in your `content` folder. Copy across the frontmatter from the top of one of your post files, adapting it as necessary, and editing your Markdown content below. You can then link to your new page by adding the code `[My CV]{{</* ref "cv.md" */>}}` to any of your existing content.
-
-Alternatively, for the above example, we could use a PDF of your Curriculum Vitae. For this purpose, create a folder called `files` within your `static` folder and move a PDF file named `cv.pdf` to that location, so we have a `static/files/cv.pdf` file path. The PDF can then be linked to from any content by using the code: `{{%/* staticref "files/cv.pdf" */%}}Download my CV{{%/* /staticref */%}}`.
 
 ## Manage node index pages
 
