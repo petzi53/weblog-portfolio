@@ -26,22 +26,38 @@ All these tools are open source and free available.
 
 ## Preliminary preparations: Installing R and RStudio
 
-There are many tutorials to install R and Rstudio. See for instance the video [Installing R and RStudio](https://www.youtube.com/watch?v=cX532N_XLIs). But at the moment the new version of RStudio which facilitats the installation procedure of blogdown is still not released. But you can use all these new features by [downloading the preview release](https://www.rstudio.com/products/rstudio/download/preview/).[^1] As these features will be soon the standard version of RStduio I explain the installation procedure with it.
+There are many tutorials to install R and Rstudio. See for instance the video [Installing R and RStudio](https://www.youtube.com/watch?v=cX532N_XLIs). But at the moment the new version of RStudio which facilitates the installation procedure of blogdown is still not released as standard version. But you can use all these new features by [downloading the preview release](https://www.rstudio.com/products/rstudio/download/preview/). As these features will be soon the standard version of RStduio I will explain the installation procedure using this upcoming version.[^1]
 
-[^1]: The RStudio version has to be higher than v1.1.28: At the moment (2017-09-04) the new version v1.1.353 is not the standard version and can therefore be downloaded only as preview version. This version works great; I couldn’t find any problems. It has the advantage that you can use some simplification and automated routines during the installation process. 
+[^1]: To use features supporting blogdown websites the RStudio version has to be higher than v1.1.28: As today (2017-09-04) the actual preview version is v1.1.353. 
 
-## Create a website project
+## Create a blogdown website
 
-After installing a RStudio version greater than 1. v.1.1.28 open a "New Project" in RStudio.
+1. After installing RStudio version greater than v.1.1.28 open the project menu and choose "New Project". {{< figure src="/img/blogdown-tutorial/create-new-project.png" title="Create a new project" >}}
 
-<!-- 
-The following r code has to be knitted in order to produce a html/pdf/word file e.g. for bookdown.
-The picture is not be seen as static website with hugo
-```{r new-project, fig.cap='Create a new project.', fig.align='center', out.width='80%', echo=FALSE} 
- knitr::include_graphics('../../static/img/blogdown-tutorial/01-new-project.png')
-``` 
--->
+2. A new window opens up: We are going to create a new local directory for our static blogdown website. Choose "New directory". {{< figure src="/img/blogdown-tutorial/create-new-directory.png" title="Create a new directory" >}}
 
-{{< figure src="/img/blogdown-tutorial/01-new-project.png" title="Create new project" >}}
+3. The selection in the following window is self-explaining: "Website using blogdown". Here it is the last line in the window. But in the future there may added other project types, so that you have to scroll down to see the blogdown-choice.{{< figure src="/img/blogdown-tutorial/create-website-using-blogdown.png" title="Create a website using blogdown" >}}
+
+4. Lastly we arrive at the final window we have to answer. Here you can choose the name and location of your local directory which will eventually collect all files of your static website. I recommend to leave all checkboxes ticked, as this default value will give you the most support to generate the new website. The program for the static website generator Hugo will be installed automatically as well as sample blog posts will be added. Especially important is the possibility to look into the example site of the theme, because this will provide you with clues about the functionality of the theme. {{< figure src="/img/blogdown-tutorial/create-website-using-hugo-and-blogdown.png" title="Create a website using Hugo and blogdown" >}}
+
+5. I have chosen the hugo-academic theme. You can pick your own preferred webdesign via the [Hugo Themes](https://themes.gohugo.io/) page. {{< figure src="/img/blogdown-tutorial/hugo-themes.png" title="Huge variety of Hugo themes to choose from. " >}}
+
+6. In the "Hugo theme" field you have to insert the URL of the GitHub repository of the theme you would like to use. You will see the address when you click at the thumbnail of the theme and hover your cursor over the "Download"-button. {{< figure src="/img/blogdown-tutorial/academic-theme.png" title="hugo-academic is as special theme for personal websites in academia. " >}} 
+
+7. Clicking on the download button will bring up the developer's repository. This is useful even for beginner as you can have a look of the ongoing discussion under the "issue" tab or to ask your own questions. Experienced users can fork the repository in order to adapt the functionality of the theme and/or to suggest code changes to the developer via the push mechanism. {{< figure src="/img/blogdown-tutorial/github-gcushen-hugo-academic.png" title="Github code repository of the hugo-academia theme. "  >}}
+
+8. When you finally click the "Create Project" button you have to wait few seconds until the selected theme is downloaded and Hugo installed. After the installation is finished RStudio opens up a four pane view. We will go more into the details of these different windows in the second part of this tutorial. {{< figure src="/img/blogdown-tutorial/four-pane-view-after-installation.png" title="RStudio's four pane view immediately after installation. " >}}
+
+## Create a Github repository
+
+Essentially you could now start to personalize your website and/or write posts. But we recommend that you finish the installation process with creating a GitHub repository which is linked to your local directory. The remote repository not only operates as backup and as distributed version control (allowing collaboration) but also enables -- beside a manual transfer via ftp -- additional ways of publishing your website. We will cover this possibilities in the third part of this tutorial.
+
+1. In case you do not have a GitHub account, sign up for it. When you have finished the registration process click the button "Start a project". If you already have an account click at "New repository". {{< figure src="/img/blogdown-tutorial/new-repo.png" title="Creating a new GitHub repository. " >}}
+
+2. Both actions ("Start a project" and "New repository") opens up a window where you can name your new repository. Leave all the other options empty or as they are and click the green button "Create repository". {{< figure src="/img/blogdown-tutorial/create-github-repo.png" title="Creating a new GitHub repository. " >}}
+
+3. The last click bring you to a "Quick setup" page with several options. As there already exist a repository with our hugo-academic files, we copy the two lines in the third option: "push an existing repository from the command line". {{< figure src="/img/blogdown-tutorial/quick-repo-setup.png" title="Quick setup: push an exiting repository from the command line. " >}}
+
+4. But before we can paste these two lines into the terminal we have to add all our files 
 
 
