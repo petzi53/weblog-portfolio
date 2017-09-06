@@ -3,8 +3,7 @@ title: "Using hugo-academic theme with blogdown (Part 1)"
 author: "Peter Baumgartner"
 date: '2017-09-04'
 slug: tutorial-hugo-academic-theme-with-blogdown-part-1
-summary: Part 1 of this tutorial explains how to install the hugo-academic theme on top of blogdown
-  and to link it to a new created repository on GitHub.
+summary: Part 1 of this tutorial explains how to install the hugo-academic theme on top of R, RStudio and blogdown.
 tags: []
 categories: []
 ---
@@ -46,18 +45,8 @@ There are many tutorials to install R and Rstudio. See for instance the video [I
 
 7. Clicking on the download button will bring up the developer's repository. This is useful even for beginner as you can have a look of the ongoing discussion under the "issue" tab or to ask your own questions. Experienced users can fork the repository in order to adapt the functionality of the theme and/or to suggest code changes to the developer via the push mechanism. {{< figure src="/img/blogdown-tutorial/github-gcushen-hugo-academic.png" title="Github code repository of the hugo-academia theme. "  >}}
 
-8. When you finally click the "Create Project" button you have to wait few seconds until the selected theme is downloaded and Hugo installed. After the installation is finished RStudio opens up a four pane view. We will go more into the details of these different windows in the second part of this tutorial. {{< figure src="/img/blogdown-tutorial/four-pane-view-after-installation.png" title="RStudio's four pane view immediately after installation. " >}}
+8. When you finally click the "Create Project" button you have to wait few seconds until the selected theme is downloaded and Hugo installed. After the installation is finished RStudio opens up a four pane view. We will go more into the details of these different windows in the third part of this tutorial. {{< figure src="/img/blogdown-tutorial/four-pane-view-after-installation.png" title="RStudio's four pane view immediately after installation. " >}}
 
-## Create a Github repository
+## Summary
 
-Essentially you could now start to personalize your website and/or write posts. But we recommend that you finish the installation process with creating a GitHub repository which is linked to your local directory. The remote repository not only operates as backup and as distributed version control (allowing collaboration) but also enables -- beside a manual transfer via ftp -- additional ways of publishing your website. We will cover this possibilities in the third part of this tutorial.
-
-1. In case you do not have a GitHub account, sign up for it. When you have finished the registration process click the button "Start a project". If you already have an account click at "New repository". {{< figure src="/img/blogdown-tutorial/new-repo.png" title="Creating a new GitHub repository. " >}}
-
-2. Both actions ("Start a project" and "New repository") opens up a window where you can name your new repository. Leave all the other options empty or as they are and click the green button "Create repository". {{< figure src="/img/blogdown-tutorial/create-github-repo.png" title="Creating a new GitHub repository. " >}}
-
-3. The last click bring you to a "Quick setup" page with several options. As there already exist a repository with our hugo-academic files, we copy the two lines in the third option: "push an existing repository from the command line". {{< figure src="/img/blogdown-tutorial/quick-repo-setup.png" title="Quick setup: push an exiting repository from the command line. " >}}
-
-4. But before we can paste these two lines into the terminal we have to add all our files 
-
-
+We have successfully installed the hugo-academic theme in a version controlled local directory. Essentially we could now start to personalize the website and/or write articles resp. posts. But we will continue the installation process with creating a remote GitHub repository which has to be linked to the just created local repository. The remote repository not only operates as backup and as distributed version control (allowing collaboration) but also enables -- beside a manual transfer via ftp -- additional ways of publishing your website. We will cover these possibilities in the following parts of this tutorial.
