@@ -1,12 +1,14 @@
 ---
-title: "Using hugo-academic theme with blogdown (Part 1)"
+title: "Blogdown tutorial (Part 1)"
 author: "Peter Baumgartner"
 date: '2017-09-04'
-slug: tutorial-hugo-academic-theme-with-blogdown-part-1
+slug: blogdown-tutorial-part-1
+tags: [r, rstudio, blogdown, hugo, git, github, academic-theme]
+categories: [tutorial, blog engines, static sites, reproducible research]
 summary: Part 1 of this tutorial explains how to install the hugo-academic theme on top of R, RStudio and blogdown.
-tags: []
-categories: []
 ---
+
+#### From R and RStduio with blogdown to Git and Github
 
 In this tutorial I will show how to install the R package "blogdown" with the help of the new version of RStudio and how to link your local blogdown-directory to a remote repository on GitHub. But before we actually start with the installation procedure let us define the different ingredients (tools) we are going to use:
 
@@ -25,7 +27,7 @@ All these tools are open source and free available.
 
 ## Preliminary preparations: Installing R and RStudio
 
-There are many tutorials to install R and Rstudio. See for instance the video [Installing R and RStudio](https://www.youtube.com/watch?v=cX532N_XLIs). But at the moment the new version of RStudio which facilitates the installation procedure of blogdown is still not released as standard version. But you can use all these new features by [downloading the preview release](https://www.rstudio.com/products/rstudio/download/preview/). As these features will be soon the standard version of RStduio I will explain the installation procedure using this upcoming version.[^1]
+There are many tutorials to install R and RStudio. See for instance the video [Installing R and RStudio](https://www.youtube.com/watch?v=cX532N_XLIs). But at the moment the new version of RStudio which facilitates the installation procedure of blogdown is still not released as standard version. But you can use all these new features by [downloading the preview release](https://www.rstudio.com/products/rstudio/download/preview/). As these features will be soon the standard version of RStudio I will explain the installation procedure using this upcoming version.[^1]
 
 [^1]: To use features supporting blogdown websites the RStudio version has to be higher than v1.1.28: As today (2017-09-04) the actual preview version is v1.1.353. 
 
@@ -37,13 +39,13 @@ There are many tutorials to install R and Rstudio. See for instance the video [I
 
 3. The selection in the following window is self-explaining: "Website using blogdown". Here it is the last line in the window. But in the future there may added other project types, so that you have to scroll down to see the blogdown-choice.{{< figure src="/img/blogdown-tutorial/create-website-using-blogdown.png" title="Create a website using blogdown" >}}
 
-4. Lastly we arrive at the final window we have to answer. Here you can choose the name and location of your local directory which will eventually collect all files of your static website. I recommend to leave all checkboxes ticked, as this default value will give you the most support to generate the new website. The program for the static website generator Hugo will be installed automatically as well as sample blog posts will be added. Especially important is the possibility to look into the example site of the theme, because this will provide you with clues about the functionality of the theme. {{< figure src="/img/blogdown-tutorial/create-website-using-hugo-and-blogdown.png" title="Create a website using Hugo and blogdown" >}}
+4. Lastly we arrive at the final window we have to answer. Here you can choose the name and location of your local directory which will eventually collect all files of your static website. I recommend to leave all check boxes ticked, as this default value will give you the most support to generate the new website. The program for the static website generator Hugo will be installed automatically as well as sample blog posts will be added. Especially important is the possibility to look into the example site of the theme, because this will provide you with clues about the functionality of the theme. {{< figure src="/img/blogdown-tutorial/create-website-using-hugo-and-blogdown.png" title="Create a website using Hugo and blogdown" >}}
 
 5. I have chosen the hugo-academic theme. You can pick your own preferred webdesign via the [Hugo Themes](https://themes.gohugo.io/) page. {{< figure src="/img/blogdown-tutorial/hugo-themes.png" title="Huge variety of Hugo themes to choose from. " >}}
 
 6. In the "Hugo theme" field you have to insert the URL of the GitHub repository of the theme you would like to use. You will see the address when you click at the thumbnail of the theme and hover your cursor over the "Download"-button. {{< figure src="/img/blogdown-tutorial/academic-theme.png" title="hugo-academic is as special theme for personal websites in academia. " >}} 
 
-7. Clicking on the download button will bring up the developer's repository. This is useful even for beginner as you can have a look of the ongoing discussion under the "issue" tab or to ask your own questions. Experienced users can fork the repository in order to adapt the functionality of the theme and/or to suggest code changes to the developer via the push mechanism. {{< figure src="/img/blogdown-tutorial/github-gcushen-hugo-academic.png" title="Github code repository of the hugo-academia theme. "  >}}
+7. Clicking on the download button will bring up the developer's repository. This is useful even for beginner as you can have a look of the ongoing discussion under the "issue" tab or to ask your own questions. Experienced users can fork the repository in order to adapt the functionality of the theme and/or to suggest code changes to the developer via the push mechanism. {{< figure src="/img/blogdown-tutorial/github-gcushen-hugo-academic.png" title="GitHub code repository of the hugo-academia theme. "  >}}
 
 8. When you finally click the "Create Project" button you have to wait few seconds until the selected theme is downloaded and Hugo installed. After the installation is finished RStudio opens up a four pane view. We will go more into the details of these different windows in the third part of this tutorial. {{< figure src="/img/blogdown-tutorial/four-pane-view-after-installation.png" title="RStudio's four pane view immediately after installation. " >}}
 
