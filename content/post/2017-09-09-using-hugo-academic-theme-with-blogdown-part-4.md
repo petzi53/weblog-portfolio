@@ -7,8 +7,8 @@ tags: [rstudio, blogdown, hugo, git, github, academic-theme]
 categories: [tutorial, blog engines, static sites, reproducible research]
 draft: no
 summary: In this fourth part of the tutorial I will explain a method how to bring your website online. My preferred method is to transfer the files via [GitHub](https://github.com/) to [Netlify](https://www.netlify.com/), a service specialized for quickly [rolling out static websites](https://techcrunch.com/2016/08/17/netlify-a-sevice-for-quickly-rolling-out-static-websites-raises-2-1m/). 
-disqus_title: Peter's Blog
-disqus_identifier: My Blog
+disqus_title: "Peter's Blog"
+disqus_identifier: "My Blog"
 ---
 
 #### Bring your website online: From blogdown via GitHub to Netlify
