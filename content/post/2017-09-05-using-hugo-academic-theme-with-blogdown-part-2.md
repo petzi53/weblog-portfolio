@@ -5,7 +5,7 @@ date: '2017-09-05'
 slug: tutorial-hugo-academic-theme-with-blogdown-part-2
 categories: []
 tags: []
-summary: In part 2 we will create a GitHub repository and link it to our local repository, which we have created in the part 1 of this tutorial.
+summary: In part 2 we will create a GitHub repository and link it to our local repository, which we have created in part 1 of this tutorial.
 ---
 
 ## Create a Github repository
@@ -23,7 +23,7 @@ In part 1 we have installed the hugo-academic theme on top of R, RStudio and blo
 
 5. After the shell command `git init` the local repository is under version control. After you have restared RStudio you will now see new tabs in the RStudio panes. Click in the Git tab in the upper right pane. This reveals a bunch of folder and some files. The yellow boxes with the question marks under the status column indicate that these file are not yet under version control. {{< figure src="/img/blogdown-tutorial/git-folder-and-files.png" title="Folders and files which are not under version control. " >}}
 
-6. To bring these folders and files under version control you have to select all of them and click in one of the checkboxes under the column Staged`. You will see now a lot more files as all the files under the still untracked folders are explicitly shown. The `A` indicates that these files are new (are just added) to the repository. {{< figure src="/img/blogdown-tutorial/git-added-files.png" title="New (Added) files  to be set under version control. " >}}
+6. To bring these folders and files under version control you have to select all of them and click in one of the checkboxes under the column "Staged". You will see now a lot more files as all the files under the still untracked folders are explicitly shown. The `A` indicates that these files are new (are just added) to the repository. {{< figure src="/img/blogdown-tutorial/git-added-files.png" title="New (Added) files  to be set under version control. " >}}
 
 7. A click in the Commit tab opens up a new window where you must write a message. This is necessary so that all collaborators (including the future-you!) remembers what was the change about. This first  (e.g.initial) commit will bring all the files under version control. {{< figure src="/img/blogdown-tutorial/initial-commit.png" title="The initial commit brings many files under version control. " >}}
 

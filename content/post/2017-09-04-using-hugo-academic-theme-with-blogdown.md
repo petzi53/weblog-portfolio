@@ -21,7 +21,7 @@ In this tutorial I will show how to install the R package "blogdown" with the he
 6. [GitHub](https://github.com/) is an Internet hosting service for distributed version control repositories. Is is mainly used for source code management, but it works also with plain text markup languages. GitHub offers all the functionality of Git as well adding its own features.
 7. [Git](https://git-scm.com/) is a distributed version control system  for tracking changes in computer files and coordinating work on those files among multiple people.
 
-All these tools are open source and free available. 
+All these tools are open source and free available.
 
 ## Preliminary preparations: Installing R and RStudio
 
