@@ -13,7 +13,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     post = "/:year/:month/:day/:slug/"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = "spf13"
+disqusShortname = "petzi"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
