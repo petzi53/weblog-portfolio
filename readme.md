@@ -7,7 +7,10 @@ categories: []
 tags: []
 draft: yes
 ---
-This will become the accompanying website for my new German book "Werkzeuge und Methoden des wissenschaftlichen Arbeitens: Forschung im digitalen Zeitalter" (working title). 
+
+# README
+
+This will become the accompanying website for my new German book "Werkzeuge und Methoden des wissenschaftlichen Arbeitens: Forschung im digitalen Zeitalter" (working title). In English I would call it "Reproducible research in the digital era: New tools and workflows.""
 
 All details like 
 
