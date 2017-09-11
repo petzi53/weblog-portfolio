@@ -1,8 +1,8 @@
 ---
-title: How to prevent Disqus?
+title: Alternatives for Disqus?
 author: Peter Baumgartner
 date: '2017-09-10'
-slug: how-to-prevent-disqus
+slug: alternatives-for-disqus
 categories: []
 tags: []
 draft: yes
