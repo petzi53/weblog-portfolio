@@ -204,39 +204,10 @@ date_format = "Mon, Jan 2, 2006"
 [languages.en]
   languageCode = "en-us"
 
-[languages.de]
-  languageCode = "de-de"
-
-[[Languages.de.menu.main]]
-  name = "Start"
-  url = "#about_de"
-  weight = 1
-
-[[languages.de.menu.main]]
-  name = "Kontakt"
-  url = "#contact"
-  weight = 6
-
-
 
 ############
 # Languages
 # Create a [languages.X] block for each language you want, where X is the language ID.
-
-[Languages]
-[Languages.en]
-  title = "Educational Patterns"
-  role = "Professor for Educational Technology"
-  organization = "Danube University Krems"
-  address = "Wing M, 2nd floor, Room 2.33, Danube University Krems, Dr.-Karl-Dorrek-Straße 30, 3500 Krems, Austria"
-  office_hours = "email for appointment"
-
-[Languages.de]
-  title = "Gedankensplitter"
-  role = "Professor für Bildungstechnologie"
-  organization = "Donau-Universität Krems"
-  address = "Büro: Trakt M, 2. Stock, Raum 2.33, Donau-Universität Krems, Dr.-Karl-Dorrek-Straße 30, 3500 Krems, Österreich"
-  office_hours = "Terminvereinbarung über E-Mail"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
