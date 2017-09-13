@@ -1,0 +1,25 @@
+---
+title: "Test Pictures in .Rmd File"
+author: "Peter Baumgartner"
+date: '2017-09-13'
+slug: test-pictures-in-rmd-file
+tags: []
+categories: []
+summary: Still to write
+draft: yes
+
+---
+
+
+
+<p>Picture with Hugo shortcode should now show up</p>
+<p>{{% figure src="/img/blogdown-tutorial/four-pane-view-after-installation.png" alt="Some alt text" %}} YEP! It worked!</p>
+<p>Now the next questions is the behavior with <code>draft: yes</code>.</p>
+<p>But shortcode works, here is a tweet card: {{% tweet 852205086956818432 %}}</p>
+<p>Picture with knitr:</p>
+<p><img src="/img/blogdown-tutorial/four-pane-view-after-installation.png" /><!-- --></p>
+<p>Picture with standard markdown: Image is shown but the alt text also shown:</p>
+<div class="figure">
+<img src="/img/blogdown-tutorial/four-pane-view-after-installation.png" alt="my alt text" />
+<p class="caption">my alt text</p>
+</div>
