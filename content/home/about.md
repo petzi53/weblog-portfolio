@@ -25,7 +25,7 @@ weight: 1
 widget: about
 ---
 
-# Biography
+# [Website under Construction] <!-- Biography -->
 
 Peter Baumgartner is full professor of Education Technology and [Head of the Department of Interactive Media and Educational Technologies](http://www.donau-uni.ac.at/en/department/imb/index.php) at [Danube University Krems](http://www.donau-uni.ac.at/en/index.php). His research interests include the acquisition of digital competences using principles of teaching, epistemology and reproducible research methods, development of (higher) educational institutions with focus on service learning and social change through innovation and digitization.
 
