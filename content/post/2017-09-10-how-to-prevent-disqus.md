@@ -1,12 +1,19 @@
 ---
 title: Alternatives for Disqus?
-author: Peter Baumgartner
+authors: 
+- Peter Baumgartner
+draft: no
 date: '2017-09-14'
 slug: alternatives-for-disqus
-categories: []
-tags: []
-draft: yes
-
+categories:
+- blog engines
+- how-to
+- static sites
+tags:
+- hugo-academic
+- blogdown
+- hugo
+- disqus
 ---
 [Disqus](https://disqus.com/) is a very popular service for hoosting and managing comments. But it has as an external service several disadvantages which are the philosophy of static websites opposed diametrically. I discuss some alternatives for integrating discussion fora with static websites.
 

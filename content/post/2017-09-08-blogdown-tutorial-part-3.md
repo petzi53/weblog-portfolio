@@ -1,12 +1,23 @@
 ---
-title: "Blogdown tutorial (Part 3)"
-author: "Peter Baumgartner"
-date: '2017-09-08'
+authors: 
+- Peter Baumgartner
 draft: no
+categories:
+- tutorial
+- blog engines
+- static sites
+- how-to
+date: "2017-09-08"
 slug: blogdown-tutorial-part-3
 summary: In part 3 I will show the necessary steps to get a live preview of the website.
-tags: [rstudio, blogdown, hugo, git, github, academic-theme]
-categories: [tutorial, blog engines, static sites, how-to]
+tags:
+- rstudio
+- blogdown
+- hugo
+- git
+- github
+- hugo-academic
+title: Blogdown tutorial (Part 3)
 ---
 
 In this third part of the blogdown tutorial I will explain the necessary steps to get a live preview of your website. The main advantage to bring up your website locally is that you can view and test your website during working on your post without the need of an internet connection. You have not even  to reload the page as this is done automatically through a technology called [LiveReload](http://livereload.com/).

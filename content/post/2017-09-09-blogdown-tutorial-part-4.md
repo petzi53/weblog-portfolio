@@ -1,12 +1,26 @@
 ---
-title: Blogdown tutorial (Part 4)
-author: Peter Baumgartner
-date: '2017-09-09'
-slug: blogdown-tutorial-part-4
-tags: [rstudio, blogdown, hugo, git, github, academic-theme]
-categories: [tutorial, blog engines, static sites, how-to]
+authors: 
+- Peter Baumgartner
 draft: no
-summary: In this fourth part of the tutorial I will explain a method how to bring your website online. My preferred method is to transfer the files via [GitHub](https://github.com/) to [Netlify](https://www.netlify.com/), a service specialized for quickly [rolling out static websites](https://techcrunch.com/2016/08/17/netlify-a-sevice-for-quickly-rolling-out-static-websites-raises-2-1m/).
+categories:
+- tutorial
+- blog engines
+- static sites
+- how-to
+date: "2017-09-09"
+slug: blogdown-tutorial-part-4
+summary: In this fourth part of the tutorial I will explain a method how to bring
+  your website online. My preferred method is to transfer the files via [GitHub](https://github.com/)
+  to [Netlify](https://www.netlify.com/), a service specialized for quickly [rolling
+  out static websites](https://techcrunch.com/2016/08/17/netlify-a-sevice-for-quickly-rolling-out-static-websites-raises-2-1m/).
+tags:
+- rstudio
+- blogdown
+- hugo
+- git
+- github
+- hugo-academic
+title: Blogdown tutorial (Part 4)
 ---
 
 #### Bring your website online: From blogdown via GitHub to Netlify

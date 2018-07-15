@@ -1,11 +1,24 @@
 ---
-title: Blogdown tutorial (Part 2)
-author: Peter Baumgartner
-date: '2017-09-05'
+authors: 
+- Peter Baumgartner
+draft: no
+categories:
+- tutorial
+- blog engines
+- static sites
+- how-to
+date: "2017-09-05"
 slug: blogdown-tutorial-part-2
-tags: [rstudio, blogdown, hugo, git, github, academic-theme]
-categories: [tutorial, blog engines, static sites, how-to]
-summary: In part 2 we will create a GitHub repository and link it to our local repository, which we have created in part 1 of this tutorial.
+summary: In part 2 we will create a GitHub repository and link it to our local repository,
+  which we have created in part 1 of this tutorial.
+tags:
+- rstudio
+- blogdown
+- hugo
+- git
+- github
+- hugo-academic
+title: Blogdown tutorial (Part 2)
 ---
 
 #### Creating a Github repository

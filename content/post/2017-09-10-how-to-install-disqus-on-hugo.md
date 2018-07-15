@@ -1,21 +1,22 @@
 ---
-title: How to install Disqus on Hugo?
-author: Peter Baumgartner
-date: '2017-09-10'
-categories:
-  - blog engines
-  - how-to
-  - static sites
-tags:
-  - academic-theme
-  - blogdown
-  - hugo
-  - disqus
-slug: how-to-install-disqus-on-hugo
+authors: 
+- Peter Baumgartner
 draft: no
+date: "2017-09-10"
+slug: how-to-install-disqus-on-hugo
 summary: This post explains how to integrate Disqus as a discussion forum for your
   website. It is not a thing you can do directly applying the Hugo documentation because
   there is a faulty template to change.
+categories:
+- blog engines
+- how-to
+- static sites
+tags:
+- hugo-academic
+- blogdown
+- hugo
+- disqus
+title: How to install Disqus on Hugo?
 ---
 
 ### Steps to intgrate Disqus into your Hugo website
