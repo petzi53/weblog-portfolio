@@ -10,12 +10,9 @@ draft: yes
 
 # README
 
-This will become the accompanying website for my new German book "Werkzeuge und Methoden des wissenschaftlichen Arbeitens: Forschung im digitalen Zeitalter" (working title). In English I would call it "Reproducible research in the digital era: New tools and workflows.""
+This is my new English weblog. I started to experiment with `blogdown` and `Hugo` in October 2017. After a long interruption I restarted the work for this website in July 2018. 
 
-All details like 
+In my German weblog [Gedankensplitter](http://peter.baumgartner.name) I focus(ed) on educational design of blended learning scenarios whereas here I will write mainly about new workflows and tools for scientific research. Both sites are related to educational technology, but with this one I want to focus on data literacy, reproducible research and new workflows permitted by the present digital era. 
 
-* HOW-TOs (registration, installatíon procedures ETC.), 
-* URLs, 
-* reviews of products and services 
+As the discussion in these areas -- especially the development of tools in the R Markdown ecosystem -- is (currently ?) almost exclusively an international one I decided to blog on this subject in English. I am a little afraid to produce stale prosa and that blogging in my poor English will not always be fun --- neither for me nor for the reader.
 
-should go into the website. The book by contrast will cover the overall architecture of the new research framework, strategies, trends, initaitives and will explain new workflows (with concrete examples on the website. 
