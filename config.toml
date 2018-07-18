@@ -1,8 +1,5 @@
-# Configuration of Academic Version 2.3
+# Configuration of Academic Version 2.1
 # Documentation: https://sourcethemes.com/academic/
-#
-# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
-# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -16,10 +13,12 @@ title = "Educational Patterns"
 ### copyright = "&copy; 2018" --- I have added my own CC license
 copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="display-centered" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="/" property="cc:attributionName" rel="cc:attributionURL">Peter Baumgartner</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="/#contact" rel="cc:morePermissions">Contact address</a>.'
 
-theme = "academic"
-enableEmoji = true
-footnotereturnlinkcontents = "↩"
 
+# pb: theme = "academic" # does not work at the moment
+theme = "academic-2.1"
+enableEmoji = true
+# pb: footnotereturnlinkcontents = "<sup>^</sup>"
+footnotereturnlinkcontents = "↩"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 paginate = 10
@@ -27,29 +26,19 @@ paginate = 10
 # Enable comments by entering your Disqus shortname
 disqusShortname = "petzi"
 
-# pb: Disable comments on the whole site or use it in the header for just one article
-# disable_comments = true
-
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-106334854-2"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
-
-# Get last modified date for content from Git?
-enableGitInfo = false
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
 
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
   section = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
+#   See: https://gohugo.io/readfiles/bfconfig/
 [blackfriday]
   hrefTargetBlank = true  # `true` opens external links in a new tab.
   fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
@@ -118,7 +107,7 @@ enableGitInfo = false
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
   #   Examples: "3:04 pm" or "15:04"
-  time_format = "15:04"
+  time_format = "3:04 PM"
 
   # Show estimated reading time for posts?
   reading_time = true
@@ -167,11 +156,6 @@ enableGitInfo = false
 
   # Enable native social sharing buttons?
   sharing = true
-
-  # Privacy pack
-  #   Show a cookie consent message to visitors
-  #   Anonymize IP in Google Analytics (if enabled)
-  privacy_pack = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -255,7 +239,6 @@ enableGitInfo = false
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/petzi53"
-
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the

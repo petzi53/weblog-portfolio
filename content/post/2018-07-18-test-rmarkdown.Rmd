@@ -1,0 +1,22 @@
+---
+title: Test RMarkdown
+author: Peter Baumgartner
+date: '2018-07-18'
+slug: test-rmarkdown
+categories: []
+tags: []
+authors:
+  - Peter Baumgartner
+draft: yes
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+## This a test with RMarkdown unter the Academic theme
+
+```{r}
+2 + 2
+```
+

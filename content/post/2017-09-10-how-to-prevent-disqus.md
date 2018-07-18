@@ -15,7 +15,7 @@ tags:
 - hugo
 - disqus
 ---
-[Disqus](https://disqus.com/) is a very popular service for hoosting and managing comments. But it has as an external service several disadvantages which are the philosophy of static websites opposed diametrically. I discuss some alternatives for integrating discussion fora with static websites.
+[Disqus](https://disqus.com/) is a very popular service for hosting and managing comments. But it has as an external service several disadvantages which are the philosophy of static websites opposed diametrically. I discuss some alternatives for integrating discussion fora with static websites.
 
 <!--more-->
 
