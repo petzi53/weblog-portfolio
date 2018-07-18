@@ -17,11 +17,8 @@ header:
   caption: ''
   image: ''
   preview: yes
+summary: This files demonstrate how to present slideshows with the Xaringan package. I am following in this short post the detailed `description` by [Tim Mastny](https://timmastny.rbind.io/blog/embed-slides-knitr-blogdown/). 
 ---
-
-One of the reasons why I loves so much the docdock theme was the possiblity to create slides on html5 basis
-
-Here comes more explaining text
 
 ## Demo of the Xaringan package
 
