@@ -12,7 +12,7 @@ tags:
 slug: presentations-with-xaringan
 authors:
   - Peter Baumgartner
-draft: yes
+draft: no
 header:
   caption: ''
   image: ''
