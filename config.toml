@@ -239,7 +239,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:peter.baumgartner@donau-uni.ac.at"
+    link = "mailto:peter.baumgartner@icloud.com"
 
   [[params.social]]
     icon = "twitter"
