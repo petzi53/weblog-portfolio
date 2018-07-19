@@ -75,7 +75,7 @@ enableGitInfo = false
 
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   avatar = ""  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "office@peter-baumgartner.at"
+  email = "peter.baumgartner@icloud.com"
   address = "Wing M, 2nd floor, Room 2.33, Danube University Krems, Dr.-Karl-Dorrek-Straße 30, 3500 Krems, Austria"
   office_hours = "Email for appointment"
   phone = "+43 664/357 6661"
