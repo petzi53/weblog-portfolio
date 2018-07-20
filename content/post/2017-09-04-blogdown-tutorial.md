@@ -23,7 +23,7 @@ title: Blogdown tutorial (Part 1)
 
 ---
 
-#### From R and RStduio with blogdown to Git and Github
+#### From R and RStudio with blogdown to Git and Github
 
 In this tutorial I will show how to install the R package "blogdown" with the help of the new version of RStudio and how to link your local blogdown-directory to a remote repository on GitHub. But before we actually start with the installation procedure let us define the different ingredients (tools) we are going to use:
 
@@ -62,7 +62,7 @@ There are many tutorials to install R and RStudio. See for instance the video [I
 
 7. Clicking on the download button will bring up the developer's repository. This is useful even for beginner as you can have a look of the ongoing discussion under the "issue" tab or to ask your own questions. Experienced users can fork the repository in order to adapt the functionality of the theme and/or to suggest code changes to the developer via the push mechanism. {{< figure src="/img/blogdown-tutorial/github-gcushen-hugo-academic.png" title="GitHub code repository of the hugo-academia theme. "  >}}
 
-8. When you finally click the "Create Project" button you have to wait few seconds until the selected theme is downloaded and Hugo installed. After the installation is finished RStudio opens up a four pane view. We will go more into the details of these different windows in the third part of this tutorial. {{< figure src="/img/blogdown-tutorial/four-pane-view-after-installation.png" title="RStudio's four pane view immediately after installation. " >}}
+8. <a name="figure8"></a>When you finally click the "Create Project" button you have to wait few seconds until the selected theme is downloaded and Hugo installed. After the installation is finished RStudio opens up a four pane view. We will go more into the details of these different windows in the third part of this tutorial.  {{< figure src="/img/blogdown-tutorial/four-pane-view-after-installation.png" title="RStudio's four pane view immediately after installation. " >}}
 
 ## Summary
 

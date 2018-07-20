@@ -4,7 +4,7 @@ widget = "hero"
 active = true
 date = 2017-10-15T00:00:00
 
-title = "Using blogdown --- Lesson learned"
+title = "Using themes with blogdown"
 
 # Order that this section will appear in.
 weight = 3
@@ -20,8 +20,8 @@ weight = 3
 #   Activate the button by specifying a URL and button label below.
 #   Deactivate by commenting out parameters, prefixing lines with `#`.
 [cta]
-  url = "./post/using-blogdown-lesson-learned/"
+  url = "./post/2017-09-09-blogdown-tutorial-part-4/"
   label = '<i class="fa fa-book"></i> Start reading the full article'
 +++
 
-Read the whole article inlcuding my odyssean journey (13 min read) or go directly to the [resulting guidlines](/post/using-blogdown-lesson-learned/#lesson-learned-from-my-own-experience) (5 min read). How to choose a hugo-theme? How to start with the theme? Strategies, if problems appear.
+How to choose a Hugo theme? How to start with a theme? Read the whole article including my Odyssean journey (13 min read) or go directly to the [resulting guidelines](post/blogdown-using-themes/#lesson-learned-from-my-own-experience) (5 min read). 
