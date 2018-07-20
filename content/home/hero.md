@@ -20,8 +20,8 @@ weight = 3
 #   Activate the button by specifying a URL and button label below.
 #   Deactivate by commenting out parameters, prefixing lines with `#`.
 [cta]
-  url = "./post/2017-09-09-blogdown-tutorial-part-4/"
+  url = "/2018/07/19/blogdown-using-themes/"
   label = '<i class="fa fa-book"></i> Start reading the full article'
 +++
 
-How to choose a Hugo theme? How to start with a theme? Read the whole article including my Odyssean journey (13 min read) or go directly to the [resulting guidelines](post/blogdown-using-themes/#lesson-learned-from-my-own-experience) (5 min read). 
+How to choose a Hugo theme? How to start with a theme? Read the whole article including my Odyssean journey (13 min read) or go directly to the [resulting guidelines](/2018/07/19/blogdown-using-themes/#guidelines) (5 min read). 

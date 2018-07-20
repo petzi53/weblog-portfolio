@@ -15,16 +15,14 @@ header:
   image: ''
   preview: no
 draft: no
-summary: After almost one year of interruption I started using blogdown again and was confronted with a serie of problems. In this post I will report on my Odyssean experience and --- more important --- I will suggest guidelines how to start, explore and use themes in blogdown. Skip the Odyssean part and start immediately with the [resulting guidelines]({{< ref "post/blogdown-using-themes.markdown" >}}).
+summary: After almost one year of interruption I started using blogdown again and was confronted with a serie of problems. In this post I will report on my Odyssean experience and --- more important --- I will suggest guidelines how to start, explore and use themes in blogdown. Skip the Odyssean part and start immediately with the [resulting guidelines](/2018/07/19/blogdown-using-themes/#guidelines).
 ---
 
 Finally --- after almost one year of interruption --- I could reorganize my responsibilities to spend more time working with blogdown and Hugo.
 
-[Alternative for my Disqus]({{< ref "post/alternatives-for-disqus.md" >}}).
-
 But (re-)starting blogging using these tools was not easy after such a long period. I did not only forget many procedures but ran also into compatibility problems with the necessary updates. It turned out for me that the R Markdown ecosphere produces not only valuable and powerful tools but is a continuously changing complex still stricken with some fragilities.
 
-After reporting on these difficulties I will [summarize the lessons](/post/blogdown-using-themes/#lesson-learned-from-my-own-experience) I learned in the last couple of weeks.
+After reporting on these difficulties I will [summarize the lessons](/2018/07/19/blogdown-using-themes/#guidelines) I learned in the last couple of weeks.
 
 ## Report from an Odyssean Journey
 
@@ -68,7 +66,7 @@ After taking a short nap to clam down I reconsidered my situation: Yes, it took 
 
 And there came also some encouraging signals from the community: Both --- Georg Cushen and Yihui Xie --- responded almost immediately to my posts. Even the problem was not solved at that time I decided to stick with the academic theme. From some other interactions (problems and questions to the theme) I had built up trust to the theme author.George is very committed to his theme and very busy to deliver the best product possible. So after a roll back to an older version I began with this article. As it stands now, this was the right decision. The issue was solved within two days.
 
-## Lesson learned from my own experience
+## <a name="guidelines"></a>Lesson learned from my own experience
 
 The following list is an attempt to turn my Odyssean experience into constructive advises for other users. I am sure it is not complete and maybe in some points faulty. If you disagree or have other, better tips: please comment on this post!
 
