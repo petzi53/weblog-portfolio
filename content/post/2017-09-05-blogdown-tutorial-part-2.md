@@ -23,7 +23,8 @@ title: Blogdown tutorial (Part 2)
 
 #### Creating a Github repository
 
-In part 1 we have installed the hugo-academic theme on top of R, RStudio and blogdown. We will continue the installation process with creating a remote GitHub repository.
+
+In [part 1 of this tutorial]({{< ref "2017-09-04-blogdown-tutorial.md" >}}) we have installed the hugo-academic theme on top of R, RStudio and blogdown. We will continue the installation process with creating a remote GitHub repository.
 
 
 1. In case you do not have a GitHub account, sign up for it. When you have finished the registration process click the button "Start a project". If you already have an account click at "New repository". {{< figure src="/img/blogdown-tutorial/new-repo.png" title="Creating a new GitHub repository. " >}}
