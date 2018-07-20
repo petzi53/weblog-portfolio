@@ -34,7 +34,7 @@ interests:
 
 ---
 
-I am professor of Education Technology and for 13 years head of the [Department of Interactive Media and Educational Technologies](http://www.donau-uni.ac.at/en/department/imb/index.php) at [Danube University Krems](http://www.donau-uni.ac.at/en/index.php). 
+I am professor of Education Technology and was for 13 years head of the [Department of Interactive Media and Educational Technologies](http://www.donau-uni.ac.at/en/department/imb/index.php) at [Danube University Krems](http://www.donau-uni.ac.at/en/index.php). I am currently on a sabbatical.
 
 <!-- Currently I am on a sabbatical. -->
 
