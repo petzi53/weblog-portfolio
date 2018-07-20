@@ -13,12 +13,13 @@ categories:
 description: ''
 draft: yes
 ---
+<!-- all of this article stub has to be update: name, slug, date, tags… -->
 
-The static website generator I am using for this weblog is `blogdown`. Blogdown itself is developed to make writing for the web as easy as possible. At least this is the intention and the theory. But blogdown is also a very sophisticated tool. It is not only built upon many other technologies but has also built-in a lot of facililties which themselves are using advanced technologies. As long as you keep using just the default options all of these complexities are hidden. But if you want to use some of the provided nice features -- and I am sure that there will come the time where you want like me to adjust something to your growing needs -- then some difficulties could emerge. At least this happened to me.
+The static website generator I am using for this weblog is `blogdown`. Blogdown itself is developed to make writing for the web as easy as possible. At least this is the intention and the theory. But blogdown is also a very sophisticated tool. It is not only built upon many other technologies but has also built-in a lot of facililties which themselves are using advanced technologies. As long as you keep using just the default options most of these complexities are hidden. But if you want to use some of the provided nice features --- and I am sure that there will come the time where you want like me to adjust something to your growing needs --- then some difficulties could emerge. At least this happened to me.
 
 ## Some observations
 
-+ **Draft:** Notice `draft` is set to true. This means that a deploy with netlify does not show this article!! So I can safely make my commits to GitHub until the article is ready for publication. I can also withdraw articles by setting `draft: true` again.
++ **Draft:** The default draft option is `draft: true`. This means that after deploymen with Netlify would not show this article live on the internet.  So I can safely make my commits to GitHub until the article is ready for publication and a I set `draft: false`. I can also withdraw articles by setting `draft: true` again.
 
 + **Rmd-File:** I am not sure if there aren't some imcompatiblities with my very special (advanced) theme, especially concerning the creation of new types of pages. But there should be no problem as I can always change the file extension latern on. 
         - At the moment I am not writing about R topics where I would need .Rmd files. But this could change in the very near future, e.g. when I writing posts to SO, to the learnr packages or other R subjects. 
@@ -39,6 +40,9 @@ The static website generator I am using for this weblog is `blogdown`. Blogdown 
 + Add `themesdir= "<path-to-theme>"`
 + Add `ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]`
 + Backup your site and run `blogdown::hugo_convert(to = "YAML", unsafe = TRUE)`
-+ Set `relativeURLs = true` (default is false) to view your website with the `build_site()` command. If you want to see it in your browser than set "Preview in Window" under the configuration menue in the code pane. You can always view it with the `serve_site()` command (shortcut: CTRL-S) in the viewer pane or in the browser with a click in "Show in a new window" icon, right from the broom icon in the viewer pane.
++ Set `relativeURLs = true` (default is false) to view your website with the `build_site()` command (shortcut: CMD-SHIFT-B). 
++ You can always view your site locally with the `serve_site()` command (shortcut: CTRL-S) in the viewer pane or in the browser with a click in "Show in a new window" icon, right from the broom icon in the viewer pane.
+
+
 
 
