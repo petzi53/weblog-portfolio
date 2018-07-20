@@ -139,6 +139,7 @@ video {
   margin: 0 auto;
 }
 
+
 figcaption {
   display: block;
   margin-top: 0.75em;
@@ -164,6 +165,7 @@ figcaption h4 {
   font-weight: 400;
   margin: 0;
 }
+
 
 pre,
 code {
