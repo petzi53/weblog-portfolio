@@ -78,8 +78,6 @@ In what follows I am not going into details and I take for granted some basic kn
 Most important: Do not _only_ focus on functionality and pleasing design.
 {{% /alert %}}
 
- 
-
 Additionally: 
 
 + Look if the author is currently active. If his/her repo was not updated for several months or later I would not choose this theme.
@@ -88,16 +86,18 @@ Additionally:
 + Look into the documentation to see if the explanations are comprehensive and up-to-date
 + Investigate if the theme is popular for the kind of community you belong to. This is not easy to be done but improves the changes for support trough other users. Look not only at the number of stars and forks in the repo because that could be misleading for your purpose and community. Recherche also if the theme is mentioned in blogs and forums and what kind of community is using this theme.
 
+> … keep in mind that a more complicated and fancier theme may require you to learn more about all the underlying technologies like the Hugo templating language, HTML, CSS, and JavaScript. ([Blogdown Book](https://bookdown.org/yihui/blogdown/a-quick-example.html))
+
 ### How to start working with a theme?
 
 {{% alert note %}}
-Most important: Do not begin with adapting the design of the theme. 
+Most important: Do not _begin_ with adapting the design of the theme. 
 {{% /alert %}}
 
 
 Instead:
 
-1. Start a test site with a test repository and a test netlify deployment.
+1. Start a test site with a test repository and a test Netlify deployment.
 2. Copy the content of `themes/<your-theme-name>/exampleSite` to your project directory. Not the folder itself, but just the content inside (e.g. the folders `static`, `content` and the `config.toml`). Overwrite these files in your project directory --- it is only a site for testing.
 3. Read accompanying instructions and go line by line trough the `config.toml` and adapt it to your needs. Make notes why you did which setting. This could helpful later on, when you have a better understanding of the theme but maybe already forgotten you original considerations.
 4. Now start writing text in your test site. I recommend to work on real posts or other types of text  you want to publish some day. Choose predominantly use cases which will be typical for your every day work. This advice seems strange as your are working still on a test site. But your time for this work is not lost: You are producing standard text files which can be easily transferred to other sites or themes. And it is important to test the theme under real working conditions.
@@ -114,7 +114,7 @@ Instead:
 ### Problem solving strategies 
 
 {{% alert note %}}
-Most important: Keep calm and RTFM!
+Most important: Keep calm _and_ RTFM!
 {{% /alert %}}
 
 
