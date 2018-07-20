@@ -17,17 +17,18 @@ header:
   caption: ''
   image: ''
   preview: yes
-summary: This files demonstrate how to present slideshows with the `Xaringan` package. I am following in this short post the detailed by [Tim Mastny](https://timmastny.rbind.io/)  in his blog entry [Embed Slides in Your Blog](https://timmastny.rbind.io/blog/embed-slides-knitr-blogdown/). 
+summary: This short demo files demonstrate how to present slideshows with the `Xaringan` package.
 ---
 
 ## Demo of the Xaringan package
 
-I am following here the blog entry by [Tim Mastny](https://timmastny.rbind.io/blog/embed-slides-knitr-blogdown/).
+I am following in this short post the detailed description by [Tim Mastny](https://timmastny.rbind.io/)  in his blog entry [Embed Slides in Your Blog](https://timmastny.rbind.io/blog/embed-slides-knitr-blogdown/). Please read his article to understand the installation procedure.
+
 
 ### Refer to an external slide show
 
 ```{r}
-knitr::include_url('https://timmastny.rbind.io/slides/first_presentation', height = "505px")
+knitr::include_url('https://timmastny.rbind.io/slides/first_presentation')
 ```
 
 ### Refer to an internal slide show
@@ -37,16 +38,54 @@ knitr::include_url('https://timmastny.rbind.io/slides/first_presentation', heigh
 knitr::include_url('/slide/xaringan-demo.html', height = "505px")
 ```
 
-The parameter `height = "505px"` prevents the gray frames around the slides. To tweak this I had to experiment with the best pixel value. (Maybe there is a better way to tweak this parameter with the right value, e.g. taking the value from the css.)
+### Summary
 
-### Refer to the file with RMarkdown itself
+Both example above are the same as in Tim's article. 
 
-![](/slide/xaringan-demo.html)
+**Two observations:**
 
-With this themes it generates a kind of a thumbnail. With other themes I have got other sizes, e.g. over the whole widht of the text column. I believe that this has to be settled in one of the css files (`layout/partials/css` or `layout/index.css`).
+1. There is not need to load the Xaringan package with `library(xaringan)`. At the moment do not understand, why this is unnecessary. 
+2. In the second example the gray left and right margin has disappeared. The parameter `height = "505px"` does this. To tweak this I had to experiment with the optimal pixel value. (Maybe there is a better way to tweak this parameter with the right value, e.g. taking the value from the css.) 
 
-### Most important: A link to the full screen presenation
+The height paramter solves one of the problem mentioned by Tim:
 
-https://portfolio.peter-baumgartner.net/slide/xaringan-demo#1
+> I’m also investigating to see if I can trim the iframe so I only see the slides and not the gray bars on the side.
+
+
+## Display the slides in full screen view
+
+Here I wanted to address his second issue:
+
+> I’d like to be able to use a relative reference to the slideshow’s HTML file in the static/ directory, but I think knitr::include_url() requires a live URL. I’ll have to do more research.
+
+### My first try: Using the Markdown image code 
+
+My first try was: `![](/slide/xaringan-demo.html/#5)`
+
+![](/slide/xaringan-demo.html#5)
+
+It generates a kind of a thumbnail. Maybe this is theme dependent. I once tried it out in another theme and got other sizes, e.g. over the whole widht of the text column. I believe that this has to be settled in one of the css files (`layout/partials/css` or `layout/index.css`). 
+
+A kind of a thumbnail was not the result I was looing for, but it could become handy anyway. For instance as a reference in an article. With the slide number behind the URL one can reference directly every slide frame.
+
+### My second try: Usind Markdown with an absolute link
+
+The second try is a [link in standard markdown](https://portfolio.peter-baumgartner.net/slide/xaringan-demo#1) to the file. It opens up the full screen presentation. The code I have used was:
+
+`The second try is a [link in standard markdown](https://portfolio.peter-baumgartner.net/slide/xaringan-demo#1) to the file.`
+
+This is not ideal as one cannot test it locally and needs always an internet connection for the presentation.
+
+### My third try: Using Hugo shortcode for a relative link
+
+{{% staticref "files/Benennung-Baumgartner.pdf" "newtab" %}}Download my CV{{% /staticref %}}
+
+The third try is a {{% staticref "files/Benennung-Baumgartner.pdf" "newtab" %}}relative link with Hugo shortcodes{{% /staticref %}} to the file. It opens up the full screen presentation in a new tab. The code I was using is:
+
+`The third try is a {{% staticref "slide/xaringan-demo.html" "newtab" %}}relative link with Hugo shortcodes{{% /staticref %}} to the file.`
+
+This is not the exactly the solution Tim was looking for. But it is near enough. Now one can present the slide show without an internet connection. --- I tried, but I could not manage to create with Markdwon a working relative link to the full screen presentation.
+
+***
 
 To inspect the the full code of this post look at [my repo at GitHub](https://github.com/petzi53/weblog-portfolio).

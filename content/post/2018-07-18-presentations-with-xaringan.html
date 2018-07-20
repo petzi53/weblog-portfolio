@@ -17,18 +17,18 @@ header:
   caption: ''
   image: ''
   preview: yes
-summary: This files demonstrate how to present slideshows with the `Xaringan` package. I am following in this short post the detailed by [Tim Mastny](https://timmastny.rbind.io/)  in his blog entry [Embed Slides in Your Blog](https://timmastny.rbind.io/blog/embed-slides-knitr-blogdown/). 
+summary: This short demo files demonstrate how to present slideshows with the `Xaringan` package.
 ---
 
 
 
 <div id="demo-of-the-xaringan-package" class="section level2">
 <h2>Demo of the Xaringan package</h2>
-<p>I am following here the blog entry by <a href="https://timmastny.rbind.io/blog/embed-slides-knitr-blogdown/">Tim Mastny</a>.</p>
+<p>I am following in this short post the detailed description by <a href="https://timmastny.rbind.io/">Tim Mastny</a> in his blog entry <a href="https://timmastny.rbind.io/blog/embed-slides-knitr-blogdown/">Embed Slides in Your Blog</a>. Please read his article to understand the installation procedure.</p>
 <div id="refer-to-an-external-slide-show" class="section level3">
 <h3>Refer to an external slide show</h3>
-<pre class="r"><code>knitr::include_url(&#39;https://timmastny.rbind.io/slides/first_presentation&#39;, height = &quot;505px&quot;)</code></pre>
-<iframe src="https://timmastny.rbind.io/slides/first_presentation" width="672" height="505px">
+<pre class="r"><code>knitr::include_url(&#39;https://timmastny.rbind.io/slides/first_presentation&#39;)</code></pre>
+<iframe src="https://timmastny.rbind.io/slides/first_presentation" width="672" height="400px">
 </iframe>
 </div>
 <div id="refer-to-an-internal-slide-show" class="section level3">
@@ -36,19 +36,50 @@ summary: This files demonstrate how to present slideshows with the `Xaringan` pa
 <pre class="r"><code>knitr::include_url(&#39;/slide/xaringan-demo.html&#39;, height = &quot;505px&quot;)</code></pre>
 <iframe src="/slide/xaringan-demo.html" width="672" height="505px">
 </iframe>
-<p>The parameter <code>height = &quot;505px&quot;</code> prevents the gray frames around the slides. To tweak this I had to experiment with the best pixel value. (Maybe there is a better way to tweak this parameter with the right value, e.g. taking the value from the css.)</p>
 </div>
-<div id="refer-to-the-file-with-rmarkdown-itself" class="section level3">
-<h3>Refer to the file with RMarkdown itself</h3>
+<div id="summary" class="section level3">
+<h3>Summary</h3>
+<p>Both example above are the same as in Tim’s article.</p>
+<p><strong>Two observations:</strong></p>
+<ol style="list-style-type: decimal">
+<li>There is not need to load the Xaringan package with <code>library(xaringan)</code>. At the moment do not understand, why this is unnecessary.</li>
+<li>In the second example the gray left and right margin has disappeared. The parameter <code>height = &quot;505px&quot;</code> does this. To tweak this I had to experiment with the optimal pixel value. (Maybe there is a better way to tweak this parameter with the right value, e.g. taking the value from the css.)</li>
+</ol>
+<p>The height paramter solves one of the problem mentioned by Tim:</p>
+<blockquote>
+<p>I’m also investigating to see if I can trim the iframe so I only see the slides and not the gray bars on the side.</p>
+</blockquote>
+</div>
+</div>
+<div id="display-the-slides-in-full-screen-view" class="section level2">
+<h2>Display the slides in full screen view</h2>
+<p>Here I wanted to address his second issue:</p>
+<blockquote>
+<p>I’d like to be able to use a relative reference to the slideshow’s HTML file in the static/ directory, but I think knitr::include_url() requires a live URL. I’ll have to do more research.</p>
+</blockquote>
+<div id="my-first-try-using-the-markdown-image-code" class="section level3">
+<h3>My first try: Using the Markdown image code</h3>
+<p>My first try was: <code>![](/slide/xaringan-demo.html/#5)</code></p>
 <div class="figure">
-<embed src="/slide/xaringan-demo.html" />
+<embed src="/slide/xaringan-demo.html#5" />
 
 </div>
-<p>With this themes it generates a kind of a thumbnail. With other themes I have got other sizes, e.g. over the whole widht of the text column. I believe that this has to be settled in one of the css files (<code>layout/partials/css</code> or <code>layout/index.css</code>).</p>
+<p>It generates a kind of a thumbnail. Maybe this is theme dependent. I once tried it out in another theme and got other sizes, e.g. over the whole widht of the text column. I believe that this has to be settled in one of the css files (<code>layout/partials/css</code> or <code>layout/index.css</code>).</p>
+<p>A kind of a thumbnail was not the result I was looing for, but it could become handy anyway. For instance as a reference in an article. With the slide number behind the URL one can reference directly every slide frame.</p>
 </div>
-<div id="most-important-a-link-to-the-full-screen-presenation" class="section level3">
-<h3>Most important: A link to the full screen presenation</h3>
-<p><a href="https://portfolio.peter-baumgartner.net/slide/xaringan-demo#1" class="uri">https://portfolio.peter-baumgartner.net/slide/xaringan-demo#1</a></p>
+<div id="my-second-try-usind-markdown-with-an-absolute-link" class="section level3">
+<h3>My second try: Usind Markdown with an absolute link</h3>
+<p>The second try is a <a href="https://portfolio.peter-baumgartner.net/slide/xaringan-demo#1">link in standard markdown</a> to the file. It opens up the full screen presentation. The code I have used was:</p>
+<p><code>The second try is a [link in standard markdown](https://portfolio.peter-baumgartner.net/slide/xaringan-demo#1) to the file.</code></p>
+<p>This is not ideal as one cannot test it locally and needs always an internet connection for the presentation.</p>
+</div>
+<div id="my-third-try-using-hugo-shortcode-for-a-relative-link" class="section level3">
+<h3>My third try: Using Hugo shortcode for a relative link</h3>
+<p>{{% staticref “files/Benennung-Baumgartner.pdf” “newtab” %}}Download my CV{{% /staticref %}}</p>
+<p>The third try is a {{% staticref “files/Benennung-Baumgartner.pdf” “newtab” %}}relative link with Hugo shortcodes{{% /staticref %}} to the file. It opens up the full screen presentation in a new tab. The code I was using is:</p>
+<p><code>The third try is a {{% staticref &quot;slide/xaringan-demo.html&quot; &quot;newtab&quot; %}}relative link with Hugo shortcodes{{% /staticref %}} to the file.</code></p>
+<p>This is not the exactly the solution Tim was looking for. But it is near enough. Now one can present the slide show without an internet connection. — I tried, but I could not manage to create with Markdwon a working relative link to the full screen presentation.</p>
+<hr />
 <p>To inspect the the full code of this post look at <a href="https://github.com/petzi53/weblog-portfolio">my repo at GitHub</a>.</p>
 </div>
 </div>
