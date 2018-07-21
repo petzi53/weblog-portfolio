@@ -17,6 +17,7 @@ title = "Educational Patterns"
 copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="display-centered" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="/" property="cc:attributionName" rel="cc:attributionURL">Peter Baumgartner</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="/#contact" rel="cc:morePermissions">Contact address</a>.'
 
 theme = "academic"
+themesdir = "themes"
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
 
@@ -275,6 +276,11 @@ enableGitInfo = false
   url = "#posts"
   weight = 2
 
+[[menu.main]]
+  name = "Slides"
+  url = "#slides"
+  weight = 3
+
 # [[menu.main]]
 #   name = "Publications"
 #   url = "#publications_selected"
@@ -293,7 +299,7 @@ enableGitInfo = false
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 10
 
 # Taxonomies.
 [taxonomies]
