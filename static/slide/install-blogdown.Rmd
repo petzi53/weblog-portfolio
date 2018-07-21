@@ -6,7 +6,7 @@ date: "2017/09/19 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-#    chakra: libs/remark-latest.min.js
+#    chakra: libs/remark-latest.min.js # this lines produces an error!
     css: [default, default-fonts]
     nature:
       highlightStyle: github

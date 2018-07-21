@@ -11,7 +11,7 @@ title = "Slides"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 60
+weight = 50
 
 +++
 ### Section under construction
