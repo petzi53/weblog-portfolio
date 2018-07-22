@@ -1,0 +1,30 @@
+---
+title: "Install R for OS X (Mac)"
+subtitle: ""
+author: "Peter Baumgartner"
+date: "2018/07/22 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "macros.js"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+class: inverse, middle
+
+
+.center[ # Fresh installation of R]
+
++ If you have already installed (an older version of) R: Do not follow this presentation! Instead look up this [apple stackexchange answer](https://www.quora.com/What-is-the-easiest-way-to-update-R-in-OSX/answer/Kshira-Saagar).
+
++ To download R follow the link of the [CRAN website](https://cran.r-project.org/) to the installation page for OS X (Mac).
+
+.center[![:scale 75%](/img/r-installation-mac-EN/1-1_Choose-Mac-Download-min.png)]

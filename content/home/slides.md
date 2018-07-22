@@ -18,4 +18,6 @@ weight = 60
 
 In this section I will offer a list of slideshows.
 
+- [Xaringan Presentation with local assets](/slide/xaringan-error.html): Error: Produces a blank page
+- [Install R for OS X (Mac)](/slide/install-r-mac.html): 2 min.
 - [Install blogdown, Hugo and your preferred theme](/slide/install-blogdown.html): 2 min.
