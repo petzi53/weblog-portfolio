@@ -18,4 +18,5 @@ weight = 60
 
 In this section I will offer a list of slideshows.
 
+- [Install R for OS X (Mac)](/slide/install-r-mac.html)
 - [Install blogdown, Hugo and your preferred theme](/slide/install-blogdown.html): 2 min.
