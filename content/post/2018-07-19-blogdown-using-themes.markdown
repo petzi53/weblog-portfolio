@@ -22,7 +22,7 @@ Finally --- after almost one year of interruption --- I could reorganize my resp
 
 But (re-)starting blogging using these tools was not easy after such a long period. I did not only forget many procedures but ran also into compatibility problems with the necessary updates. It turned out for me that the R Markdown ecosphere produces not only valuable and powerful tools but is a continuously changing complex still stricken with some fragilities.
 
-After reporting on these difficulties I will [summarize the lessons](/2018/07/19/blogdown-using-themes/#guidelines) I learned in the last couple of weeks.
+After reporting on these difficulties I will summarize the lessons I learned in the last couple of weeks. You can skip the reporting part and go directly to the [guidelines](/2018/07/19/blogdown-using-themes/#guidelines).
 
 ## Report from an Odyssean Journey
 
