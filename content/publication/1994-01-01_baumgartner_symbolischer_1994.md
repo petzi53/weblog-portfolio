@@ -1,5 +1,5 @@
 +++
-title = "Symbolischer Interaktionismus und 'grounded theory'. Grundlagen und Methoden zur Beforschung der 'Qualität der Lehre'"
+title = "Symbolischer Interaktionismus und \"grounded theory\". Grundlagen und Methoden zur Beforschung der \"Qualität der Lehre\""
 date = "1994-01-01"
 publication_types = ["4"]
 authors = ["Peter Baumgartner"]
