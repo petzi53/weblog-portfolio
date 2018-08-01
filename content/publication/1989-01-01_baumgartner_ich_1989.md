@@ -1,9 +1,9 @@
 +++
-title = "'Ich halte die KI für einen Fehlschlag' - Interview mit Hubert Dreyfus über philosophische Perspektiven der 'Künstlichen Intelligenz'"
+title = "\"Ich halte die KI für einen Fehlschlag\" - Interview mit Hubert Dreyfus über philosophische Perspektiven der \"Künstlichen Intelligenz\""
 date = "1989-01-01"
 publication_types = ["2"]
 authors = ["Peter Baumgartner"]
-publication = " In: ComputerWelt, 6, _pp. 23_"
+publication = "In: ComputerWelt, 6, _pp. 23_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

@@ -1,9 +1,9 @@
 +++
-title = "'Ist es nun Tag oder Nacht?' - Interview mit Joseph Weizenbaum über die Verantwortung des Forschers"
+title = "\"Ist es nun Tag oder Nacht?\" - Interview mit Joseph Weizenbaum über die Verantwortung des Forschers"
 date = "1989-01-01"
 publication_types = ["2"]
 authors = ["Peter Baumgartner"]
-publication = " In: ComputerWelt, 1, _pp. 14_"
+publication = "In: ComputerWelt, 1, _pp. 14_"
 abstract = ""
 abstract_short = ""
 image_preview = ""
