@@ -31,6 +31,7 @@ Most of my 36 Prezis are in German. They are all public, downloadabe and copyabl
 
 The following Prezis are in English:
 
+- [Educational Technology and Learning Theories](https://prezi.com/001fyapnapq7/educational-technology-and-learning-theories/): Learning theories and their impact on elearning and educational technology.
 - [The Rise of the Robots](https://prezi.com/jtf6e8vgzfby/the-rise-of-the-robots/): Challenges for the Future of our Society.
 - [Validation of Learning: VALERU](https://prezi.com/4fzqtpt3gayg/validation-of-learning-valeru/): Validation of non-formal and informal learning. Project results of the VALERU project and some thoughts for future development and sustainability.
 - [User Experience and Educational Design](https://prezi.com/im9qfaesc1kh/user-experience-and-educational-design/): Introduction and some Key Concepts
