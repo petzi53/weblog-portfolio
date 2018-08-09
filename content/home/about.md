@@ -40,6 +40,8 @@ I am professor of Education Technology and was for 13 years head of the [Departm
 
 I have held positions as professor at several universities  (Klagenfurt, Münster, Innsbruck, Hagen) before I accepted the nomination to Krems. I published 12 books (7 monographs and 5 edited volumes) and more than 120 articles. Beside this new English site (started July 2018) I am also blogging in German since 2006 at [Gedankensplitter](http://peter.baumgartner.name).
 
-<!-- {{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}} -->
+Photos: {{% staticref "files/img/PeterBaumgartner-formal-high_res.jpg" %}}formal:hi-res{{% /staticref %}}, {{% staticref "files/img/PeterBaumgartner-formal-low_res.jpg" %}}formal:low-res{{% /staticref %}}, {{% staticref "files/img/PeterBaumgartner-informal-high_res.jpg" %}}informal:hi-res{{% /staticref %}}, {{% staticref "files/img/PeterBaumgartner-informal-low_res.png" %}}informal:low-res{{% /staticref %}}<br /> 
+CVs: Short: {{% staticref "files/CV_short-baumgartner-EN-DE.docx" %}}German/English{{% /staticref %}}, Long: Europass {{% staticref "files/CV.pdf" %}}English{{% /staticref %}}
+
 
 
