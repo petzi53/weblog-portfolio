@@ -10,7 +10,7 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
-url_pdf = ""
+url_pdf = "files/pdf/2015/Baumgartner_Bauer_Eportfolio_Alexander_2016.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -24,4 +24,5 @@ highlight = true
 [header]
 image = ""
 caption = ""
+
 +++

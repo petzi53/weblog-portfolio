@@ -10,6 +10,7 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
+url_custom = [{name = "Tagaungsband", url = "https://www.hd-mint.de/wp-content/uploads/2014/10/ENDVERSION_HDMINT_2015_Tagungsband.pdf"}]
 url_pdf = ""
 url_preprint = ""
 url_code = ""

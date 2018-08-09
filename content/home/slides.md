@@ -14,8 +14,6 @@ subtitle = ""
 weight = 60
 
 +++
-### Section under construction
-
 In this section I will offer a list of slideshows.
 
 #### HTML5

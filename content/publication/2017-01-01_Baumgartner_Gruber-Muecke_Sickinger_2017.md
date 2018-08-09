@@ -16,12 +16,13 @@ url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
-url_video = ""
+url_video = "https://www.purplsoc.org/media/"
 url_poster = ""
 url_source = ""
+url_custom = [{name = "Website", url = "https://www.purplsoc.org/"}]
 math = true
 highlight = true
 [header]
-image = ""
-caption = ""
+   image = ""
+   caption = ""
 +++

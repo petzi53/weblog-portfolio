@@ -10,6 +10,7 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
+url_custom = [{name = "Download Book", url = "https://www.purplsoc.org/wp-content/uploads/2016/12/PURPLSOC_book2-1.pdf"}]
 url_pdf = ""
 url_preprint = ""
 url_code = ""
