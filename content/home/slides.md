@@ -25,7 +25,7 @@ In this section I will offer a list of slideshows.
 
 Most of my 36 Prezis are in German. They are all public, downloadabe and copyable.
 
-- My Prezis homepage: https://prezi.com/user/baumgartner/
+- My Prezi homepage: https://prezi.com/user/baumgartner/
 
 The following Prezis are in English:
 
