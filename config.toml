@@ -16,7 +16,7 @@ title = "Educational Patterns"
 ### copyright = "&copy; 2018" --- I have added my own CC license
 copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="display-centered" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="/" property="cc:attributionName" rel="cc:attributionURL">Peter Baumgartner</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="/#contact" rel="cc:morePermissions">Contact address</a>.'
 
-theme = "academic"
+theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
 
@@ -47,6 +47,12 @@ enableGitInfo = false
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
   section = [ "HTML", "RSS" ]
+
+# [outputFormats.search]
+#  baseName = "search"
+#  isPlainText = true
+#  mediaType = "application/json"
+#  notAlternative = true
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
@@ -281,11 +287,15 @@ enableGitInfo = false
   url = "#slides"
   weight = 5
 
+ [[menu.main]]
+   name = "Highlights"
+   url = "#publications_selected"
+   weight = 10
 
  [[menu.main]]
    name = "Publications"
-   url = "#publications"
-   weight = 10
+   url = "publication"
+   weight = 12
 
 # [[menu.main]]
 #   name = "Projects"

@@ -9,8 +9,6 @@ tags:
   - hugo-academic
   - xaringan
 slug: presentations-with-xaringan
-authors:
-  - Peter Baumgartner
 draft: no
 header:
   caption: ''
