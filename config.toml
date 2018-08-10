@@ -48,6 +48,12 @@ enableGitInfo = false
   home = [ "HTML", "CSS", "RSS" ]
   section = [ "HTML", "RSS" ]
 
+# [outputFormats.search]
+#  baseName = "search"
+#  isPlainText = true
+#  mediaType = "application/json"
+#  notAlternative = true
+
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
@@ -281,11 +287,15 @@ enableGitInfo = false
   url = "#slides"
   weight = 5
 
+ [[menu.main]]
+   name = "Highlights"
+   url = "#publications_selected"
+   weight = 10
 
  [[menu.main]]
    name = "Publications"
-   url = "#publications"
-   weight = 10
+   url = "publication"
+   weight = 12
 
 # [[menu.main]]
 #   name = "Projects"
