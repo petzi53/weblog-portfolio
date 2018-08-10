@@ -45,8 +45,16 @@ enableGitInfo = false
     post = "/:year/:month/:day/:slug/"
 
 [outputs]
-  home = [ "HTML", "CSS", "RSS" ]
+  home = [ "HTML", "CSS", "RSS", "search" ]
   section = [ "HTML", "RSS" ]
+
+
+[outputFormats.search]
+  baseName = "search"
+  isPlainText = true
+  mediaType = "application/json"
+  notAlternative = true
+
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
@@ -310,6 +318,27 @@ enableGitInfo = false
   name = "Contact"
   url = "#contact"
   weight = 20
+
+[[menu.main]]
+  name = "Search"
+  url = "#search"
+  weight = 60
+
+# Search.
+[params.search]
+  # Search provider:
+  #   0: No search engine
+  #   1: Algolia (https://www.algolia.com)
+  engine = 1
+
+  # Configuration of Algolia search engine.
+  # Paste the values from your Algolia dashboard.
+  [params.search.algolia]
+    app_id = "XYCGRLSUYI"
+    api_key = "0a7068fb805b2447210e079f7f02963a"
+    index_name = "prod_ACAD"
+    show_logo = false
+
 
 # Taxonomies.
 [taxonomies]
