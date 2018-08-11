@@ -10,6 +10,7 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
+url_custom = [{name = "Website of Special Issue", url = "https://journal.ph-noe.ac.at/index.php/resource/issue/view/7"}]
 url_pdf = "files/pdf/2014/Baumgartner_2014_The-Potential-of-the-Internet-for-Mathematics-Education.pdf"
 url_preprint = ""
 url_code = ""

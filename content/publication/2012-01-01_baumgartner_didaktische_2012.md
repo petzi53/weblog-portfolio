@@ -10,7 +10,8 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
-url_pdf = ""
+url_custom = [{name = "Tagungsband", url = "https://www.waxmann.com/?eID=texte&pdf=2741Volltext.pdf&typ=zusatztext"}]
+url_pdf = "Baumgartner_Bauer_2012_Didaktische Szenarien mit E-Portfolios gestalten.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
