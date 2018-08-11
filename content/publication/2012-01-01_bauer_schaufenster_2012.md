@@ -10,6 +10,7 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
+url_custom = [{name = "Buchauszug", url = "files/pdf/2012/Bauer_Baumgartner_2012_E-Portfolio als Schaufenster des Lernens_Drei Beispiele von Musterbeschreibungen.pdf"}, {name = "Buch kaufen", url = "http://www.waxmann.com/buch2643"} ]
 url_pdf = ""
 url_preprint = ""
 url_code = ""

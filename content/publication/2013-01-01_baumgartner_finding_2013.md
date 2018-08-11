@@ -10,7 +10,8 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
-url_pdf = ""
+url_custom = [{name = "Proceedings", url = "https://hillside.net/plop/2013/papers/proceedings/"}]
+url_pdf = "files/pdf/2013/Baumgartner_Kohls_2013_AbstractionsAndPatterns"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
