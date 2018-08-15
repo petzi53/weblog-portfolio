@@ -31,7 +31,7 @@ disqusShortname = "petzi"
 # disable_comments = true
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-106334854-2"
+googleAnalytics = "" # UA-106334854-2
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -355,3 +355,28 @@ enableGitInfo = false
 # Configure the English version of the website.
 [Languages.en]
   languageCode = "en-us"
+
+  # Hugo privacy options
+  # May not be compatible with Academic privacy_pack
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false
