@@ -37,6 +37,6 @@ title: How to install Disqus on Hugo?
 
 ## Critical remark to Disqus
 
-I should mention that there is growing skepticism in the community about Disqus. People are not only criticizing slowness (load-time behavior) but above all they are concerned about data integrity. It seems that there are lots of [irrelevant requests](http://donw.io/post/github-comments/) to track the data traffic for whatever purpose nobody knows. I have written a post [summarizing my Disqus critiques](/post/alternatives-for-disqus/).
+I should mention that there is growing skepticism in the community about Disqus. People are not only criticizing slowness (load-time behavior) but above all they are concerned about data integrity. It seems that there are lots of [irrelevant requests](http://donw.io/post/github-comments/) to track the data traffic for whatever purpose nobody knows. I have written a post [summarizing my Disqus critiques](/post/2017-09-10-alternatives-for-disqus/).
 
 
