@@ -31,7 +31,7 @@ disqusShortname = "petzi"
 # disable_comments = true
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "" # UA-106334854-2
+googleAnalytics = "UA-106194253-3"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
