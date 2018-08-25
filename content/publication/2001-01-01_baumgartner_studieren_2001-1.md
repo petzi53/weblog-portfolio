@@ -10,8 +10,9 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
+url_custom = [{name = "Buch: Online/PDF/eBook", url = "https://bookdown.org/pbaumgartner/wiss-arbeiten/"}]
 url_pdf = ""
-url_preprint = ""
+url_preprint = "files/pdf/2001/Baumgartner_2001_Studieren und Forschen mit dem Internet.pdf"
 url_code = ""
 url_dataset = ""
 url_project = ""

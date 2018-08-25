@@ -10,6 +10,7 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
+url_custom = [{name = "Buch: Online/PDF/eBook", url = "https://bookdown.org/pbaumgartner/wiss-arbeiten/"}]
 url_pdf = ""
 url_preprint = ""
 url_code = ""
