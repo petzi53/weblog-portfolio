@@ -10,8 +10,9 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
+url_custom = [{name = "Fahnenkorrektur", url = "files/pdf/2008/Baumgartner_Blended_Korrekturfahne_2008.pdf"}]
 url_pdf = ""
-url_preprint = ""
+url_preprint = "files/pdf/2008/Baumgartner_Blended Learning Arrangements_2008.pdf"
 url_code = ""
 url_dataset = ""
 url_project = ""

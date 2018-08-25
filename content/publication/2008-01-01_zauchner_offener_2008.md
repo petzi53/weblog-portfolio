@@ -11,6 +11,7 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
+url_custom = [{name = "Vorwort", url = "files/pdf/2008/Zauchner_etal_Offener BIldungsraum Hochschule_Vorwort_2008.pdf"}, {name = "Tagungsband", url = "files/pdf/2008/Zauchner_etal_Offener Bildungsraum Hochschule__2008.pdf"} ]
 url_pdf = ""
 url_preprint = ""
 url_code = ""
