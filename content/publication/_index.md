@@ -16,6 +16,6 @@ list_format = 2
 image = ""
 caption = ""
 +++
-**This part is still not finished.** Missing: Downloads earlier than 2007; Books as selected publications ('highlights'); Tags
+**This part is still not finished.** Missing: Downloads earlier than 2006; Books as selected publications ('highlights'); Tags
 <hr />
 
