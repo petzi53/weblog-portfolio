@@ -5,8 +5,8 @@ draft: no
 date: "2017-09-10"
 slug: how-to-install-disqus-on-hugo
 summary: This post explains how to integrate Disqus as a discussion forum for your
-  website. It is not a thing you can do directly applying the Hugo documentation because
-  there is a faulty template to change.
+  website. It is not a thing you can do directly applying the Hugo documentation
+  because there is a faulty template to change.
 categories:
 - blog engines
 - how-to

@@ -31,4 +31,3 @@ list_format = 1
 publication_type = "-1"
 +++
 
-### Section under construction

@@ -1,6 +1,6 @@
 +++
 title = "Publications"
-date = 2017-01-01T00:00:00
+date = 2018-01-01T00:00:00
 math = false
 highlight = false
 
@@ -9,10 +9,13 @@ highlight = false
 #   1 = Detailed
 #   2 = APA
 #   3 = MLA
-list_format = 3
+list_format = 2
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = ""
 caption = ""
 +++
+**This part is still not finished.** Missing: Downloads earlier than 2009; Books as selected publications ('highlights'); Tags
+<hr />
+
