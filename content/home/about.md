@@ -28,9 +28,8 @@ interests:
   - Educational Technology
   - Educational Design
   - E-Learning
-  - Data Literacy
-  - Research Methods
-  - Social Change
+  - Data Literacy Education
+  - Digital Competency Education
 
 ---
 

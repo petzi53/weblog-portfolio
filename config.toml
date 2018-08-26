@@ -243,7 +243,7 @@ enableGitInfo = false
   #   For email icon, use "fa" icon pack, "envelope" icon, and
   #   "mailto:your@email.com" as the link.
   #
-  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #   Full list: https://fontawesome.github.io/Font-Awesome/icons/
   #
   # Icon pack "ai" includes the following academic network icons:
   #
@@ -270,6 +270,28 @@ enableGitInfo = false
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/petzi53"
+
+# Goodreads does not work wit the old fa-icon pack
+#  [[params.social]]
+#    icon = "goodreads-g"
+#    icon_pack = "fa"
+#    link = "https://www.goodreads.com/user/show/13270093-peter-baumgartner"
+
+  [[params.social]]
+    icon = "zotero"
+    icon_pack = "ai"
+    link = "https://www.zotero.org/petzi"
+
+  [[params.social]]
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "https://orcid.org/0000-0003-4526-8791"
+
+  [[params.social]]
+    icon = "stack-overflow"
+    icon_pack = "fa"
+    link = "https://stackoverflow.com/users/7322615/petzi"
+
 
 
 # Navigation Links

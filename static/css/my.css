@@ -47,3 +47,20 @@ footer {
   padding: -1rem 0;
   width: 100%;
 }
+
+# https://discourse.gohugo.io/t/handling-images-size-aligning/1940/2
+img[src$='#floatleft']
+{
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: left;
+}
+
+img[src$='#floatright']
+{
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: right;
+}
