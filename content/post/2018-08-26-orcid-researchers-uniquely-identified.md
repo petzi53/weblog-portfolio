@@ -11,7 +11,7 @@ tags:
   - academic networking
 authors:
   - Peter Baumgartner
-draft: yes
+draft: no
 header:
   caption: ''
   image: 'headers/orcid-banner.png'
@@ -65,5 +65,6 @@ Remains to mention: ORCID is free, platform independent and [Open Source](https:
 ORCID aims to be a part of a broader social and technical infrastructure for uniquely identifying researchers with their work, affiliations, funding and publishing institutions. Almost 5.2 Million researchers have already applied for their free ORCID ID. In the long run, many institutions engaged with research (universities, funding agencies, publishers) should be connected and form part of this global infrastructure. Even if this is not the case at the moment, applying has already some advantages: It gives you another place to present your work, e.g., a free web presence and provides you furthermore with a personal, digital, international and persistent name identifier.
 
 {{< vimeo 237730655 >}}
+
 
 
