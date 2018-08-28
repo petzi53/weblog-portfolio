@@ -48,6 +48,10 @@ footer {
   width: 100%;
 }
 
+figcaption {
+  text-align: center;
+}
+
 # https://discourse.gohugo.io/t/handling-images-size-aligning/1940/2
 img[src$='#floatleft']
 {
@@ -64,3 +68,5 @@ img[src$='#floatright']
 	height: auto;
 	float: right;
 }
+
+

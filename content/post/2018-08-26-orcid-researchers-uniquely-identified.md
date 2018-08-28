@@ -40,7 +40,7 @@ Only TU Graz has already established an integration with ORCID, the other three 
 
 But ORCID is already very advantageous for the individual researcher: The ORCID ID gives you a personal, digital, international and persistent name identifier. This ID outlives the change of working positions with their associated web presence and email address. But more important: The ID identifies you unmistakable, e.g., independently name changes with marriage or a pool of people with precisely the same name.
 
-<center>{{< figure src="img/orcid/orcid-without-border.png" title="QR Code for my ORCID ID" >}}</center>
+{{< figure src="img/orcid/orcid-without-border.png" title="QR Code for my ORCID ID" >}}
 
 Especially the last case is crucial for me: I know from a funny event ([1st International Meeting of people with the family name of 'Baumgartner'](http://peter.baumgartner.name/2012/09/16/1-baumgartner-treffen/?highlight=1.%20internationales%20baumgartner%20treffen)) that there are about 4.700 (!) Baumgartner's in Austria alone and perhaps several thousand more in the world. As my given name 'Peter' is also trendy, there are always a bunch of Peter Baumgartner's in every database. Even when I want to redeem a voucher in a small shop, I have to provide my address as there are two or three Peter Baumgartner's in their database.
 
@@ -58,7 +58,7 @@ There are other similar initiatives like [Scopus Author ID](https://www.scopus.c
 
 Remains to mention: ORCID is free, platform independent and [Open Source](https://github.com/ORCID/ORCID-Source) under the [MIT License](https://en.wikipedia.org/wiki/MIT_License). 
 
-<center>{{< figure src="img/orcid/orcid-screenshot.png" title="Screenshot of my the upper part of my ORCID page" >}}</center>
+{{< figure src="img/orcid/orcid-screenshot.png" title="Screenshot of my the upper part of my ORCID page" >}}
 
 ## Conclusion
 
