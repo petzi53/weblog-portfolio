@@ -30,6 +30,7 @@ interests:
   - E-Learning
   - Data Literacy Education
   - Digital Competency Education
+  - Open Science
 
 ---
 
