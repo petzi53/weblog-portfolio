@@ -358,7 +358,7 @@ enableGitInfo = false
   # Search provider:
   #   0: No search engine
   #   1: Algolia (https://www.algolia.com)
-  engine = 1
+  engine = 2
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
@@ -366,7 +366,7 @@ enableGitInfo = false
     app_id = "XYCGRLSUYI"
     api_key = "0a7068fb805b2447210e079f7f02963a"
     index_name = "prod_ACAD"
-    show_logo = false
+    show_logo = true
 
 
 # Taxonomies.
